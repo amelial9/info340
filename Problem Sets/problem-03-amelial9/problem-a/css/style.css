@@ -1,0 +1,44 @@
+body svg circle {
+    fill: #5f5f5f;
+}
+
+body svg path {
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+}
+
+body .small {
+    fill: white;
+}
+
+.contained .small {
+    fill: #573d29;
+}
+
+.contained circle,
+.contained rect {
+    fill: #c0c0c0;
+    stroke: none;
+}
+
+#interactive {
+    fill: #c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+
+#interactive:hover {
+    fill: #bd250d;
+}
+
+rect:not(#rect) {
+    opacity: 0;
+}
+
+.contained #rect {
+    opacity: 1;
+}
+
+path:last-of-type {
+    stroke: none;
+}

@@ -1,0 +1,14 @@
+/* empty! (mostly) */
+
+/* keep images small enough to work with */
+.about-section img {
+  max-width: 150px;
+}
+
+.card-box img {
+  max-width: 150px;
+}
+
+.card-box > div {
+  border: 1px solid blue;
+}

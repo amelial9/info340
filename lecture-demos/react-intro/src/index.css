@@ -1,0 +1,15 @@
+header {
+  color: white;
+  background-color: rebeccapurple;
+  padding: .5em;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.cardList {
+  display: flex;
+  margin: 2em 0;
+}

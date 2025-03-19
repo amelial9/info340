@@ -1,0 +1,27 @@
+/* Include custom colors and sizing */
+
+header {
+  background-color: #2d708d;
+  color: white;
+}
+
+nav {
+  background-color: #ddd;  
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+nav h2 {
+  font-size: 1.25rem;
+}
+
+/* keep images in check */
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-deck .card {
+  flex-basis: 250px;
+  margin: 0 15px 30px 15px;
+}
